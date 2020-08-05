@@ -1,0 +1,318 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-01T09:13:10.090Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify login",
+        "description": "",
+        "id": "tags-concept;verify-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "This is valid login test",
+            "match": {
+              "location": "stepDefinitions.TaggingSteps.this_is_valid_login_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-01T09:13:10.233Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify logout",
+        "description": "",
+        "id": "tags-concept;verify-logout",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "This is logout test",
+            "match": {
+              "location": "stepDefinitions.TaggingSteps.this_is_logout_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          },
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-01T09:13:10.264Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify search",
+        "description": "",
+        "id": "tags-concept;verify-search",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "This is search test",
+            "match": {
+              "location": "stepDefinitions.TaggingSteps.this_is_search_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-01T09:13:10.291Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify Advanced search",
+        "description": "",
+        "id": "tags-concept;verify-advanced-search",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "This is Advanced search",
+            "match": {
+              "location": "stepDefinitions.TaggingSteps.this_is_Advanced_search()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-01T09:13:10.315Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify prepaid recharge",
+        "description": "",
+        "id": "tags-concept;verify-prepaid-recharge",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "This is prepaid recharge test",
+            "match": {
+              "location": "stepDefinitions.TaggingSteps.this_is_prepaid_recharge_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-01T09:13:10.330Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify postpaid recharge",
+        "description": "",
+        "id": "tags-concept;verify-postpaid-recharge",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "This is postpaid recharge test",
+            "match": {
+              "location": "stepDefinitions.TaggingSteps.this_is_postpaid_recharge_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End2End"
+          }
+        ]
+      }
+    ],
+    "name": "Tags concept",
+    "description": "",
+    "id": "tags-concept",
+    "keyword": "Feature",
+    "uri": "file:Features/Tagging.feature",
+    "tags": []
+  }
+]

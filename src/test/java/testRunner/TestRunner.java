@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "C:\\Users\\simra\\eclipse-workspace2\\CucumberSelenium\\Features\\OrangeHRM.feature",
+		features = "C:\\Users\\simra\\Desktop\\CucumberSeleniumJava_UI\\Features\\OrangeHRM.feature",
 	    //features = "@target/rerun.txt",
 		glue = "stepDefinitions",
 		dryRun=false,

@@ -1,27 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.5">
-<testcase classname="Tags concept" name="Verify login" time="0.121">
-<system-out><![CDATA[Given This is valid login test..............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Tags concept" name="Verify logout" time="0.01">
-<system-out><![CDATA[Given This is logout test...................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Tags concept" name="Verify search" time="0.012">
-<system-out><![CDATA[Given This is search test...................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Tags concept" name="Verify Advanced search" time="0.011">
-<system-out><![CDATA[Given This is Advanced search...............................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Tags concept" name="Verify prepaid recharge" time="0.004">
-<system-out><![CDATA[Given This is prepaid recharge test.........................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Tags concept" name="Verify postpaid recharge" time="0.017">
-<system-out><![CDATA[Given This is postpaid recharge test........................................passed
-]]></system-out>
-</testcase>
-</testsuite>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.038"/>

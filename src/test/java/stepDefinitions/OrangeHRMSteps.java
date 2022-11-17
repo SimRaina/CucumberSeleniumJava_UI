@@ -41,14 +41,14 @@ public class OrangeHRMSteps {
 	
 	@When("Enter username and password")
 	public void enter_username_and_password() {
-		driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123");
+		driver.findElement(By.name("username")).sendKeys("Admin");
+        driver.findElement(By.name("password")).sendKeys("admin123");
 	}
 	
 	@When("Enter username {string} and password {string}")
 	public void enter_username_and_password(String user, String pwd) {
-        driver.findElement(By.id("txtUsername")).sendKeys(user);
-        driver.findElement(By.id("txtPassword")).sendKeys(pwd);
+        driver.findElement(By.name("username")).sendKeys(user);
+        driver.findElement(By.name("password")).sendKeys(pwd);
     }
 	
 	@When("Enter username and password from Data Table")

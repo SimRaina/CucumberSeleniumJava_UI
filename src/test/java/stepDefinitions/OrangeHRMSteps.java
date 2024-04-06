@@ -8,7 +8,6 @@ import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 import java.util.List;
 
@@ -21,7 +20,6 @@ public class OrangeHRMSteps {
 	@Given("I launch chrome browser")
 	public void i_launch_chrome_browser() {
 		
-		driver = WebDriverManager.chromedriver().create();
 	    driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    
